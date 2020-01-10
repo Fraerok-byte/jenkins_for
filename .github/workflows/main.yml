@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Clone repo
-    - uses: actions/checkout@v1
+      uses: actions/checkout@v1
     - name: Check dir
       run: ls -la
     - name: End!
